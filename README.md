@@ -1,7 +1,7 @@
 # 🚀 RankLens
 
 <p align="center">
-  <img src="./screenshots/landing.png" alt="RankLens Banner" width="100%" />
+  <img src="public/images/landing.png" width="100%" />
 </p>
 
 <h1 align="center">RankLens</h1>
@@ -144,7 +144,7 @@ RankLens automatically analyzes your public profile and generates a complete das
 
 Modern landing page designed for competitive programmers.
 
-![Landing Page](./screenshots/landing.png)
+![Landing](public/images/landing.png)
 
 ---
 
@@ -152,7 +152,7 @@ Modern landing page designed for competitive programmers.
 
 View your overall rating, topic-wise estimates, acceptance rates, and performance statistics.
 
-![Dashboard](./screenshots/dashboard.png)
+![Dashboard](public/images/dashboard.png)
 
 ---
 
@@ -160,7 +160,7 @@ View your overall rating, topic-wise estimates, acceptance rates, and performanc
 
 Receive AI-inspired recommendations on what to study next based on your current skills.
 
-![Learning Path](./screenshots/learning-path.png)
+![Learning Path](public/images/learning-path.png)
 
 ---
 
@@ -168,7 +168,7 @@ Receive AI-inspired recommendations on what to study next based on your current 
 
 Explore prerequisite relationships and discover the optimal order to master algorithms.
 
-![Skill Map](./screenshots/skill-map.png)
+![Skill Map](public/images/skill-map.png)
 
 ---
 
