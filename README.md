@@ -1,110 +1,205 @@
-# RankLens
+# 🚀 RankLens
 
-> **AI-powered Codeforces analytics platform that transforms competitive programming data into actionable insights.**
+<p align="center">
+  <img src="./screenshots/landing.png" alt="RankLens Banner" width="100%" />
+</p>
 
-Analyze your Codeforces profile, identify weak topics, visualize your progress, and receive personalized learning recommendations—all in one modern dashboard.
+<h1 align="center">RankLens</h1>
+
+<p align="center">
+<b>AI-Powered Codeforces Analytics Platform</b>
+</p>
+
+<p align="center">
+Transform your Codeforces profile into actionable insights with topic-wise ratings, personalized learning paths, interactive dependency graphs, and deep performance analytics.
+</p>
+
+<p align="center">
+
+[![React](https://img.shields.io/badge/React-18-61DAFB?logo=react&logoColor=white)](https://react.dev/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+[![Vite](https://img.shields.io/badge/Vite-646CFF?logo=vite&logoColor=white)](https://vitejs.dev/)
+[![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38BDF8?logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
+[![Framer Motion](https://img.shields.io/badge/Framer_Motion-black?logo=framer&logoColor=white)](https://www.framer.com/motion/)
+[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+
+</p>
+
+<p align="center">
+
+🌐 **Live Demo:** https://ranklens-eight.vercel.app/
+
+⭐ **Repository:** https://github.com/Utkarshyadav377/RankLens
+
+</p>
 
 ---
 
-## 🚀 Live Demo
+# 📖 Overview
 
-**https://ranklens-eight.vercel.app**
+RankLens is an AI-powered analytics platform built for competitive programmers.
+
+Instead of only showing your Codeforces rating, RankLens analyzes your submissions to estimate topic-wise strengths, identify weak concepts, recommend personalized learning paths, and visualize prerequisite relationships between algorithms and data structures.
+
+Whether you're targeting Specialist, Candidate Master, or Legendary Grandmaster, RankLens helps you practice smarter—not just harder.
 
 ---
 
-## ✨ Features
+# ✨ Features
 
-### 📈 Topic Rating Estimation
-Estimate your effective rating across individual topics including:
+## 📊 Topic Rating Estimation
+
+Estimate your effective rating across every major competitive programming topic.
+
+Supports topics including:
 
 - Dynamic Programming
 - Graphs
-- Greedy
-- Binary Search
 - Trees
-- Math
+- Binary Search
+- Greedy
+- Two Pointers
+- Sliding Window
 - Strings
 - Number Theory
 - Geometry
-- and more...
+- Constructive Algorithms
+- Bitmask DP
+- Recursion
+- Memoization
+- and many more...
 
 ---
 
-### 🎯 Gap Finder
+## 🎯 Gap Finder
 
-Identify the topics that are limiting your rating growth.
+Discover exactly what's limiting your Codeforces growth.
 
-RankLens analyzes your solve history to reveal:
+RankLens identifies
 
-- Low solve-rate topics
-- Under-practiced concepts
-- High-impact improvement areas
-
----
-
-### 📊 Deep Performance Analytics
-
-Visualize your competitive programming journey with:
-
-- Rating distribution
-- Problem difficulty histogram
-- Topic-wise performance
-- Solved problem statistics
-- Submission insights
+- Weakest topics
+- Low acceptance-rate concepts
+- Under-practiced areas
+- Highest-impact improvements
+- Rating bottlenecks
 
 ---
 
-### 🧠 Interactive Skill Map
+## 📈 Deep Performance Analytics
 
-Explore prerequisite relationships between algorithms and data structures.
+Understand your programming performance with detailed visualizations.
 
-Learn what to study next through an interactive dependency graph designed specifically for competitive programmers.
+Includes
+
+- Topic-wise ratings
+- Acceptance rates
+- Solved problems
+- Submission statistics
+- Performance distribution
+- Difficulty analysis
+- Overall profile summary
 
 ---
 
-### ⚡ Fast Profile Analysis
+## 🧠 Personalized Learning Paths
+
+RankLens doesn't just tell you what's weak.
+
+It tells you what to learn next.
+
+Receive recommendations based on
+
+- Prerequisite completion
+- Current rating
+- Topic readiness
+- Learning confidence
+- Skill dependencies
+
+---
+
+## 🌳 Interactive Skill Map
+
+Visualize prerequisite relationships between algorithms and data structures.
+
+The interactive dependency graph helps you
+
+- Understand concept hierarchy
+- Plan your learning roadmap
+- Discover prerequisite gaps
+- Learn systematically
+
+---
+
+## ⚡ Instant Analysis
 
 Simply enter your Codeforces handle.
 
-RankLens automatically fetches your public data and generates a complete analytics dashboard within seconds.
+RankLens automatically analyzes your public profile and generates a complete dashboard within seconds.
 
 ---
 
-## 📷 Preview
+# 📸 Screenshots
 
-> Add screenshots or GIFs here
+## 🏠 Landing Page
 
-```
-Landing Page
-Dashboard
-Analytics
-Skill Map
-Gap Finder
-```
+Modern landing page designed for competitive programmers.
+
+![Landing Page](./screenshots/landing.png)
 
 ---
 
-# 🛠 Tech Stack
+## 📊 Profile Overview
 
-| Frontend | Visualization | Styling | Deployment |
-|-----------|--------------|----------|------------|
-| React | Recharts | Tailwind CSS | Vercel |
-| Vite | React Flow | Framer Motion | |
+View your overall rating, topic-wise estimates, acceptance rates, and performance statistics.
+
+![Dashboard](./screenshots/dashboard.png)
 
 ---
 
-# ⚙️ Installation
+## 🧠 Personalized Learning Path
+
+Receive AI-inspired recommendations on what to study next based on your current skills.
+
+![Learning Path](./screenshots/learning-path.png)
+
+---
+
+## 🌳 Interactive Dependency Graph
+
+Explore prerequisite relationships and discover the optimal order to master algorithms.
+
+![Skill Map](./screenshots/skill-map.png)
+
+---
+
+# 🚀 Tech Stack
+
+| Category | Technologies |
+|------------|--------------|
+| Frontend | React 18 |
+| Language | TypeScript |
+| Build Tool | Vite |
+| Styling | Tailwind CSS |
+| Animations | Framer Motion |
+| Charts | Recharts |
+| Graph Visualization | React Flow |
+| Routing | React Router |
+| Deployment | Vercel |
+
+---
+
+# ⚙️ Local Development
 
 Clone the repository
 
 ```bash
-git clone https://github.com/Utkarshyadav377/cf-coach.git
+git clone https://github.com/Utkarshyadav377/RankLens.git
 ```
 
 Navigate into the project
 
 ```bash
-cd cf-coach
+cd RankLens
 ```
 
 Install dependencies
@@ -113,16 +208,28 @@ Install dependencies
 npm install
 ```
 
-Run locally
+Start the development server
 
 ```bash
 npm run dev
 ```
 
-Visit
+Open
 
 ```
 http://localhost:5173
+```
+
+Build for production
+
+```bash
+npm run build
+```
+
+Preview production build
+
+```bash
+npm run preview
 ```
 
 ---
@@ -130,52 +237,81 @@ http://localhost:5173
 # 📂 Project Structure
 
 ```
-src/
+RankLens
 │
-├── components/
-├── pages/
-├── hooks/
-├── services/
-├── utils/
-├── assets/
-└── App.tsx
+├── public/
+├── screenshots/
+│   ├── landing.png
+│   ├── dashboard.png
+│   ├── learning-path.png
+│   └── skill-map.png
+│
+├── src/
+│   ├── assets/
+│   ├── components/
+│   ├── hooks/
+│   ├── pages/
+│   ├── services/
+│   ├── utils/
+│   ├── data/
+│   └── App.tsx
+│
+├── package.json
+├── vite.config.ts
+└── README.md
 ```
 
 ---
 
 # 🎯 Why RankLens?
 
-Most competitive programmers only track their overall Codeforces rating.
+Traditional Codeforces analytics only answer one question:
 
-RankLens goes a step further by answering questions like:
+> "What is my rating?"
 
-- Which topics are holding my rating back?
-- Where should I practice next?
-- What are my strongest problem-solving areas?
-- How balanced is my skill set?
-- Which concepts should I master before learning advanced topics?
+RankLens answers much more.
+
+✅ Which topics are limiting my growth?
+
+✅ Which algorithms should I learn next?
+
+✅ How balanced is my skill set?
+
+✅ Which prerequisites am I missing?
+
+✅ What is my strongest topic?
+
+✅ What should I practice today?
+
+Instead of guessing your next step, RankLens provides a structured roadmap toward becoming a stronger competitive programmer.
 
 ---
 
-# 📌 Roadmap
+# 🗺️ Roadmap
+
+Upcoming features
 
 - [ ] Contest prediction model
-- [ ] AI-powered practice recommendations
-- [ ] Personalized learning paths
-- [ ] Compare two Codeforces profiles
-- [ ] Contest performance analysis
+- [ ] AI Mentor
+- [ ] Personalized practice recommendations
+- [ ] Compare two Codeforces users
+- [ ] Contest history analysis
 - [ ] Daily practice planner
-- [ ] Export analytics as PDF
-- [ ] Dark/Light theme
+- [ ] PDF report export
+- [ ] Progress tracking
+- [ ] Achievement system
+- [ ] Codeforces API caching
+- [ ] Dark/Light theme toggle
 
 ---
 
 # 🤝 Contributing
 
-Contributions are welcome.
+Contributions are welcome!
 
-1. Fork the repository
-2. Create a feature branch
+1. Fork this repository
+
+2. Create a new branch
 
 ```bash
 git checkout -b feature/amazing-feature
@@ -187,7 +323,7 @@ git checkout -b feature/amazing-feature
 git commit -m "Add amazing feature"
 ```
 
-4. Push
+4. Push the branch
 
 ```bash
 git push origin feature/amazing-feature
@@ -197,9 +333,17 @@ git push origin feature/amazing-feature
 
 ---
 
-# Disclaimer
+# 📄 License
 
-RankLens is an independent project and is **not affiliated with or endorsed by Codeforces**. It uses publicly available profile data for analytics purposes.
+This project is licensed under the MIT License.
+
+---
+
+# ⚠️ Disclaimer
+
+RankLens is an independent project and is **not affiliated with, endorsed by, or sponsored by Codeforces**.
+
+All analytics are generated using publicly available Codeforces profile and submission data.
 
 ---
 
@@ -207,10 +351,20 @@ RankLens is an independent project and is **not affiliated with or endorsed by C
 
 **Utkarsh Yadav**
 
-- GitHub: https://github.com/Utkarshyadav377
+GitHub: https://github.com/Utkarshyadav377
+
+Project: https://github.com/Utkarshyadav377/RankLens
 
 ---
 
-## ⭐ Show your support
+# ⭐ Support
 
-If you found this project useful, consider giving it a ⭐ on GitHub.
+If you found this project helpful or interesting, consider giving it a ⭐ on GitHub.
+
+It helps others discover the project and motivates future development.
+
+---
+
+<p align="center">
+Made with ❤️ using React, TypeScript, Vite, Tailwind CSS, and modern web technologies.
+</p>
